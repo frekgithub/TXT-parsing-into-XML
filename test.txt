@@ -1,0 +1,858 @@
+<UAVariable NodeId="ns=2;i=3" BrowseName="2:ESTOP_alarm" DataType="INT" AccessLevel="3">
+    <DisplayName>ESTOP_alarm</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."ESTOP_alarm"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=4" BrowseName="2:PLC_alarm" DataType="INT" AccessLevel="3">
+    <DisplayName>PLC_alarm</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."PLC_alarm"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=5" BrowseName="2:PLC_commsFault" DataType="INT" AccessLevel="3">
+    <DisplayName>PLC_commsFault</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."PLC_commsFault"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=6" BrowseName="2:swESTOP_alarm" DataType="INT" AccessLevel="3">
+    <DisplayName>swESTOP_alarm</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."swESTOP_alarm"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=7" BrowseName="2:swESTOP_alarmTrigger" DataType="BOOL" AccessLevel="3">
+    <DisplayName>swESTOP_alarmTrigger</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."swESTOP_alarmTrigger"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=8" BrowseName="2:CTRL_reset" DataType="BOOL" AccessLevel="3">
+    <DisplayName>CTRL_reset</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."CTRL_reset"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=9" BrowseName="2:CTRL_stateRead" DataType="INT" AccessLevel="3">
+    <DisplayName>CTRL_stateRead</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."CTRL_stateRead"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=10" BrowseName="2:CTRL_stateSet" DataType="INT" AccessLevel="3">
+    <DisplayName>CTRL_stateSet</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."CTRL_stateSet"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=11" BrowseName="2:heartbeat_plc" DataType="BOOL" AccessLevel="3">
+    <DisplayName>heartbeat_plc</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."heartbeat_plc"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=12" BrowseName="2:heartbeat_sw" DataType="BOOL" AccessLevel="3">
+    <DisplayName>heartbeat_sw</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."heartbeat_sw"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=13" BrowseName="2:DPM1_dewpointRead" DataType="REAL" AccessLevel="3">
+    <DisplayName>DPM1_dewpointRead</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."DPM1_dewpointRead"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=14" BrowseName="2:DPM1_pressureRead" DataType="REAL" AccessLevel="3">
+    <DisplayName>DPM1_pressureRead</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."DPM1_pressureRead"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=15" BrowseName="2:DPM1_RHRead" DataType="REAL" AccessLevel="3">
+    <DisplayName>DPM1_RHRead</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."DPM1_RHRead"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=16" BrowseName="2:DPM1_tempRead" DataType="REAL" AccessLevel="3">
+    <DisplayName>DPM1_tempRead</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."DPM1_tempRead"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=17" BrowseName="2:PT1_alarm" DataType="INT" AccessLevel="3">
+    <DisplayName>PT1_alarm</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."PT1_alarm"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=18" BrowseName="2:PT1_pressureRead_H2Supply" DataType="REAL" AccessLevel="3">
+    <DisplayName>PT1_pressureRead_H2Supply</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."PT1_pressureRead_H2Supply"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=19" BrowseName="2:PT2_alarm" DataType="INT" AccessLevel="3">
+    <DisplayName>PT2_alarm</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."PT2_alarm"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=20" BrowseName="2:PT2_pressureRead_H2FCIpanel" DataType="REAL" AccessLevel="3">
+    <DisplayName>PT2_pressureRead_H2FCIpanel</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."PT2_pressureRead_H2FCIpanel"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=21" BrowseName="2:PT3_alarm" DataType="INT" AccessLevel="3">
+    <DisplayName>PT3_alarm</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."PT3_alarm"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=22" BrowseName="2:PT3_pressureRead_H2Inlet" DataType="REAL" AccessLevel="3">
+    <DisplayName>PT3_pressureRead_H2Inlet</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."PT3_pressureRead_H2Inlet"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=23" BrowseName="2:PT4_alarm" DataType="INT" AccessLevel="3">
+    <DisplayName>PT4_alarm</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."PT4_alarm"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=24" BrowseName="2:PT4_pressureRead_N2Supply" DataType="REAL" AccessLevel="3">
+    <DisplayName>PT4_pressureRead_N2Supply</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."PT4_pressureRead_N2Supply"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=25" BrowseName="2:PT5_alarm" DataType="INT" AccessLevel="3">
+    <DisplayName>PT5_alarm</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."PT5_alarm"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=26" BrowseName="2:PT5_pressureRead_MFCinlet" DataType="REAL" AccessLevel="3">
+    <DisplayName>PT5_pressureRead_MFCinlet</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."PT5_pressureRead_MFCinlet"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=27" BrowseName="2:PT2-5_alarm" DataType="INT" AccessLevel="3">
+    <DisplayName>PT2-5_alarm</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."PT2-5_alarm"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=28" BrowseName="2:MFC_flowSet" DataType="REAL" AccessLevel="3">
+    <DisplayName>MFC_flowSet</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."MFC_flowSet"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=29" BrowseName="2:MFC1_arrivalTimeout" DataType="INT" AccessLevel="3">
+    <DisplayName>MFC1_arrivalTimeout</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."MFC1_arrivalTimeout"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=30" BrowseName="2:MFC1_commsFault" DataType="INT" AccessLevel="3">
+    <DisplayName>MFC1_commsFault</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."MFC1_commsFault"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=31" BrowseName="2:MFC1_flowRead" DataType="REAL" AccessLevel="3">
+    <DisplayName>MFC1_flowRead</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."MFC1_flowRead"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=32" BrowseName="2:MFC1_flowSet" DataType="REAL" AccessLevel="3">
+    <DisplayName>MFC1_flowSet</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."MFC1_flowSet"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=33" BrowseName="2:MFC1_flowStatus" DataType="REAL" AccessLevel="3">
+    <DisplayName>MFC1_flowStatus</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."MFC1_flowStatus"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=34" BrowseName="2:MFC1_hwFault" DataType="INT" AccessLevel="3">
+    <DisplayName>MFC1_hwFault</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."MFC1_hwFault"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=35" BrowseName="2:MFC2_arrivalTimeout" DataType="INT" AccessLevel="3">
+    <DisplayName>MFC2_arrivalTimeout</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."MFC2_arrivalTimeout"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=36" BrowseName="2:MFC2_commsFault" DataType="INT" AccessLevel="3">
+    <DisplayName>MFC2_commsFault</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."MFC2_commsFault"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=37" BrowseName="2:MFC2_flowRead" DataType="REAL" AccessLevel="3">
+    <DisplayName>MFC2_flowRead</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."MFC2_flowRead"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=38" BrowseName="2:MFC2_flowSet" DataType="REAL" AccessLevel="3">
+    <DisplayName>MFC2_flowSet</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."MFC2_flowSet"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=39" BrowseName="2:MFC2_flowStatus" DataType="REAL" AccessLevel="3">
+    <DisplayName>MFC2_flowStatus</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."MFC2_flowStatus"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=40" BrowseName="2:MFC2_hwFault" DataType="INT" AccessLevel="3">
+    <DisplayName>MFC2_hwFault</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."MFC2_hwFault"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=41" BrowseName="2:MFC3_arrivalTimeout" DataType="INT" AccessLevel="3">
+    <DisplayName>MFC3_arrivalTimeout</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."MFC3_arrivalTimeout"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=42" BrowseName="2:MFC3_commsFault" DataType="INT" AccessLevel="3">
+    <DisplayName>MFC3_commsFault</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."MFC3_commsFault"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=43" BrowseName="2:MFC3_flowRead" DataType="REAL" AccessLevel="3">
+    <DisplayName>MFC3_flowRead</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."MFC3_flowRead"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=44" BrowseName="2:MFC3_flowSet" DataType="REAL" AccessLevel="3">
+    <DisplayName>MFC3_flowSet</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."MFC3_flowSet"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=45" BrowseName="2:MFC3_flowStatus" DataType="REAL" AccessLevel="3">
+    <DisplayName>MFC3_flowStatus</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."MFC3_flowStatus"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=46" BrowseName="2:MFC3_hwFault" DataType="INT" AccessLevel="3">
+    <DisplayName>MFC3_hwFault</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."MFC3_hwFault"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=47" BrowseName="2:SOV1_read" DataType="BOOL" AccessLevel="3">
+    <DisplayName>SOV1_read</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."SOV1_read"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=48" BrowseName="2:SOV1_set" DataType="BOOL" AccessLevel="3">
+    <DisplayName>SOV1_set</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."SOV1_set"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=49" BrowseName="2:SOV2_read" DataType="BOOL" AccessLevel="3">
+    <DisplayName>SOV2_read</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."SOV2_read"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=50" BrowseName="2:SOV2_set" DataType="BOOL" AccessLevel="3">
+    <DisplayName>SOV2_set</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."SOV2_set"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=51" BrowseName="2:SOV3_read" DataType="BOOL" AccessLevel="3">
+    <DisplayName>SOV3_read</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."SOV3_read"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=52" BrowseName="2:SOV3_set" DataType="BOOL" AccessLevel="3">
+    <DisplayName>SOV3_set</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."SOV3_set"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=53" BrowseName="2:SOV4_read" DataType="BOOL" AccessLevel="3">
+    <DisplayName>SOV4_read</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."SOV4_read"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=54" BrowseName="2:SOV4_set" DataType="BOOL" AccessLevel="3">
+    <DisplayName>SOV4_set</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."SOV4_set"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=55" BrowseName="2:SOV5_read" DataType="BOOL" AccessLevel="3">
+    <DisplayName>SOV5_read</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."SOV5_read"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=56" BrowseName="2:SOV5_set" DataType="BOOL" AccessLevel="3">
+    <DisplayName>SOV5_set</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."SOV5_set"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=57" BrowseName="2:SOV6_read" DataType="BOOL" AccessLevel="3">
+    <DisplayName>SOV6_read</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."SOV6_read"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=58" BrowseName="2:SOV6_set" DataType="BOOL" AccessLevel="3">
+    <DisplayName>SOV6_set</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."SOV6_set"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=59" BrowseName="2:SOV7_read" DataType="BOOL" AccessLevel="3">
+    <DisplayName>SOV7_read</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."SOV7_read"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=60" BrowseName="2:SOV7_set" DataType="BOOL" AccessLevel="3">
+    <DisplayName>SOV7_set</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."SOV7_set"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=61" BrowseName="2:SOV8_read" DataType="BOOL" AccessLevel="3">
+    <DisplayName>SOV8_read</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."SOV8_read"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=62" BrowseName="2:SOV8_set" DataType="BOOL" AccessLevel="3">
+    <DisplayName>SOV8_set</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."SOV8_set"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=63" BrowseName="2:SOV9_read" DataType="BOOL" AccessLevel="3">
+    <DisplayName>SOV9_read</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."SOV9_read"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=64" BrowseName="2:SOV9_set" DataType="BOOL" AccessLevel="3">
+    <DisplayName>SOV9_set</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."SOV9_set"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=65" BrowseName="2:TCT1_alarm" DataType="INT" AccessLevel="3">
+    <DisplayName>TCT1_alarm</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."TCT1_alarm"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=66" BrowseName="2:TCT1_tempRead_H2FCIpanel" DataType="REAL" AccessLevel="3">
+    <DisplayName>TCT1_tempRead_H2FCIpanel</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."TCT1_tempRead_H2FCIpanel"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=67" BrowseName="2:GS1_alarm" DataType="INT" AccessLevel="3">
+    <DisplayName>GS1_alarm</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."GS1_alarm"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=68" BrowseName="2:GS1_fault" DataType="INT" AccessLevel="3">
+    <DisplayName>GS1_fault</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."GS1_fault"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=69" BrowseName="2:GS1_H2detector" DataType="REAL" AccessLevel="3">
+    <DisplayName>GS1_H2detector</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."GS1_H2detector"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=70" BrowseName="2:ROT1_flowRead_N2Purge" DataType="REAL" AccessLevel="3">
+    <DisplayName>ROT1_flowRead_N2Purge</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."ROT1_flowRead_N2Purge"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=71" BrowseName="2:PURGE_timerRead" DataType="REAL" AccessLevel="3">
+    <DisplayName>PURGE_timerRead</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."PURGE_timerRead"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=72" BrowseName="2:PURGE_timerSet" DataType="REAL" AccessLevel="3">
+    <DisplayName>PURGE_timerSet</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."PURGE_timerSet"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=73" BrowseName="2:PURGE_modeSet" DataType="INT" AccessLevel="3">
+    <DisplayName>PURGE_modeSet</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."PURGE_modeSet"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=74" BrowseName="2:FLOW_modeSet" DataType="INT" AccessLevel="3">
+    <DisplayName>FLOW_modeSet</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."FLOW_modeSet"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=75" BrowseName="2:PURGE_Start" DataType="BOOL" AccessLevel="3">
+    <DisplayName>PURGE_Start</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."PURGE_Start"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=76" BrowseName="2:PURGE_Stop" DataType="BOOL" AccessLevel="3">
+    <DisplayName>PURGE_Stop</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."PURGE_Stop"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=77" BrowseName="2:H2_Supply_Start" DataType="BOOL" AccessLevel="3">
+    <DisplayName>H2_Supply_Start</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."H2_Supply_Start"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=78" BrowseName="2:Flow_Start" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Flow_Start</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."Flow_Start"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=79" BrowseName="2:Flow_Totalize" DataType="REAL" AccessLevel="3">
+    <DisplayName>Flow_Totalize</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."Flow_Totalize"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=80" BrowseName="2:Flow_DataReset" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Flow_DataReset</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"PC_GDB"."Flow_DataReset"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
